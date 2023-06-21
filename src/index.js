@@ -2,7 +2,6 @@ import createScore from '../modules/createScore.js';
 import isNumeric from '../modules/isNumeric.js';
 import setToLocalStorage from '../modules/localStorage.js';
 import './style.css';
-// import '@fortawesome/fontawesome-free/css/all.css';
 
 const nameInput = document.querySelector('.inputName');
 const scoreInput = document.querySelector('.inputScore');
