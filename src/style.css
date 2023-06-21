@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.mainContainer {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.heading {
+  margin: 100px 0 40px 140px;
+}
+
+.scoreBoard {
+  border: 3px solid black;
+  border-radius: 5px;
+}
+
+.scoreBoardContainer {
+  width: 35%;
+}
+
+.recentScore {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.scoreInput {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.scoreInputText {
+  margin-bottom: 30px;
+  font-size: x-large;
+}
+
+.scoreInputContainer {
+  width: 20%;
+}
+
+.scoreInputBtnContainer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.recentScoreBtn {
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 3px;
+  font-size: medium;
+  border: 3px solid #4c3d3d;
+  box-shadow: 3px 3px 3px #4c3d3d;
+  background: #4c3d3d;
+  color: #fff7d4;
+}
+
+.scoreInputBtn {
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 3px;
+  font-size: medium;
+  border: 3px solid #4c3d3d;
+  box-shadow: 3px 3px 3px #4c3d3d;
+  background: #4c3d3d;
+  color: #fff7d4;
+}
+
+.scoreBoardItem:nth-child(even) {
+  background: #a19f9d;
+}
+
+.headingText {
+  font-size: xxx-large;
+  display: flex;
+}
+
+.recentScoreText {
+  font-size: xx-large;
+}
+
+input {
+  height: 35px;
+  padding: 0 8px;
+  border: 3px solid black;
+}
+
+.alert {
+  display: none;
+  justify-content: center;
+  font-size: 20px;
+  color: red;
+}
