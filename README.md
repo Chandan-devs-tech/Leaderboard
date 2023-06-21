@@ -14,7 +14,7 @@
 - [📖 \[Leaderboard\] ](#-leaderboard-)
   - [🛠 Built With ](#-built-with-)
     - [Key Features ](#key-features-)
-  - [� Getting Started ](#-getting-started-)
+  - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
     - [Install](#install)
