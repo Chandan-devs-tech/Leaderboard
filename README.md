@@ -78,7 +78,7 @@ Clone this repository to your desired folder:
 
 sh
   cd my-folder
-  git clone https://github.com/SanaTameem/Leaderboard.git
+  git clone https://github.com/Chandan-devs-tech/Leaderboard.git
 
 
 ### Install
@@ -108,11 +108,11 @@ You can deploy this project using:
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 *Sana Tameem*
+👤 **Chandan Gupta**
 
-- GitHub: [@githubhandle](https://github.com/SanaTameem)
-- Twitter: [@twitterhandle](https://twitter.com/sana_tameem)
-- LinkedIn: [LinkedIn](http://linkedin.com/in/sana-tameem-a63b55240)
+- GitHub: [@githubhandle](https://github.com/Chandan-devs-tech)
+- Twitter: [@twitterhandle](https://twitter.com/ChandanGuptaDev)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/chandangupta-devs/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -132,7 +132,7 @@ You can deploy this project using:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page]().
+Feel free to check the [issues page](https://github.com/Chandan-devs-tech/Leaderboard/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -156,6 +156,6 @@ I would like to thank the Microverse team.
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT]() licensed.
+This project is [MIT](https://github.com/Chandan-devs-tech/Leaderboard/blob/feature/setUp/MIT.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
