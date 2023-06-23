@@ -1,13 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Leaderboard</title>
-    <link rel="stylesheet" href="style.css">
-<script defer src="runtime.e8fae83f112a9fc0447b.js"></script><script defer src="main.de133117243ec3d27717.js"></script></head>
-<body>
-    <h1>Leaderboard</h1>
-    <script src="index.js"></script>
-</body>
+    <link rel="stylesheet" href="style.css" />
+  <script defer src="runtime.e8fae83f112a9fc0447b.js"></script><script defer src="main.0ac09fc27ac1e273a072.js"></script></head>
+  <body>
+    <header class="heading">
+      <h1 class="headingText">Leaderboard</h1>
+    </header>
+    <section class="mainContainer">
+      <section class="scoreBoardContainer">
+        <div class="recentScore">
+          <h2 class="recentScoreText">Recent scores</h2>
+          <button class="refreshBtn">Refresh</button>
+        </div>
+        <article class="scoreBoard"></article>
+      </section>
+      <section class="scoreInputContainer">
+        <div class="scoreInputText">
+          <h2>Add your score</h2>
+        </div>
+        <form class="scoreInput">
+          <input
+            type="text"
+            placeholder="Your name"
+            class="inputName"
+            required
+          />
+          <input
+            type="number"
+            placeholder="Score"
+            class="inputScore"
+            required
+          />
+          <input class="scoreInputBtn" type="submit" />
+        </form>
+      </section>
+    </section>
+    <script src="index.js" type="module"></script>
+  </body>
 </html>

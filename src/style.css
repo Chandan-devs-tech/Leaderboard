@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+body {
+  background: #025464;
+}
+
 .mainContainer {
   display: flex;
   width: 100%;
@@ -14,7 +18,7 @@
 }
 
 .scoreBoard {
-  border: 3px solid black;
+  border: 3px solid #f8f1f1;
   border-radius: 5px;
 }
 
@@ -37,6 +41,7 @@
 .scoreInputText {
   margin-bottom: 30px;
   font-size: x-large;
+  color: #f8f1f1;
 }
 
 .scoreInputContainer {
@@ -53,10 +58,10 @@
   padding: 5px;
   border-radius: 3px;
   font-size: medium;
-  border: 3px solid #4c3d3d;
-  box-shadow: 3px 3px 3px #4c3d3d;
-  background: #4c3d3d;
-  color: #fff7d4;
+  border: 3px solid #fff;
+  box-shadow: 3px 3px 8px #fff;
+  background: #e57c23;
+  color: #f8f1f1;
 }
 
 .scoreInputBtn {
@@ -64,33 +69,78 @@
   padding: 5px;
   border-radius: 3px;
   font-size: medium;
-  border: 3px solid #4c3d3d;
-  box-shadow: 3px 3px 3px #4c3d3d;
-  background: #4c3d3d;
-  color: #fff7d4;
+  border: 3px solid #fff;
+  box-shadow: 3px 3px 8px #fff;
+  background: #e57c23;
+  color: #f8f1f1;
   width: 30%;
   align-self: end;
 }
 
 .scoreBoardItem {
   padding: 10px;
+  background: #e57c23;
+  color: #fff;
+  font-size: 20px;
 }
 
 .scoreBoardItem:nth-child(even) {
-  background: #a19f9d;
+  background: #f4c26f;
+  color: #025464;
 }
 
 .headingText {
-  font-size: xxx-large;
+  font-size: 70px;
   display: flex;
+  color: #f8f1f1;
+  font-weight: 800;
 }
 
 .recentScoreText {
   font-size: xx-large;
+  color: #f8f1f1;
 }
 
 input {
   height: 35px;
   padding: 0 8px;
-  border: 3px solid black;
+  border: 3px solid #fff;
+  background: #f4c26f;
+}
+
+::placeholder {
+  color: #025464;
+}
+
+@media screen and (max-width: 768px) {
+  .mainContainer {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .heading {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .headingText {
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 40px;
+  }
+
+  .scoreBoardContainer {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    order: 1;
+    margin-top: 50px;
+    margin-bottom: 40px;
+  }
+
+  .scoreInputContainer {
+    width: 85%;
+  }
 }
