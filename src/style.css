@@ -48,7 +48,7 @@
   justify-content: flex-end;
 }
 
-.recentScoreBtn {
+.refreshBtn {
   cursor: pointer;
   padding: 5px;
   border-radius: 3px;
@@ -68,6 +68,12 @@
   box-shadow: 3px 3px 3px #4c3d3d;
   background: #4c3d3d;
   color: #fff7d4;
+  width: 30%;
+  align-self: end;
+}
+
+.scoreBoardItem {
+  padding: 10px;
 }
 
 .scoreBoardItem:nth-child(even) {
