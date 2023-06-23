@@ -19,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/Chandan-devs-tech/Leaderboard/issues"
   },
-  "homepage": "https://github.com/Chandan-devs-tech/Leaderboard#readme",
+  "homepage": "https://Chandan-devs-tech.github.io/Leaderboard",
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "css-loader": "^6.8.1",
