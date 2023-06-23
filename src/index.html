@@ -8,7 +8,6 @@
   </head>
   <body>
     <header class="heading">
-      <span class="alert"></span>
       <h1 class="headingText">Leaderboard</h1>
     </header>
     <section class="mainContainer">
@@ -24,8 +23,18 @@
           <h2>Add your score</h2>
         </div>
         <form class="scoreInput">
-          <input type="text" placeholder="Your name" class="inputName" />
-          <input type="text" placeholder="Score" class="inputScore" />
+          <input
+            type="text"
+            placeholder="Your name"
+            class="inputName"
+            required
+          />
+          <input
+            type="number"
+            placeholder="Score"
+            class="inputScore"
+            required
+          />
           <input class="scoreInputBtn" type="submit" />
         </form>
       </section>
