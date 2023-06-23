@@ -15,7 +15,7 @@
       <section class="scoreBoardContainer">
         <div class="recentScore">
           <h2 class="recentScoreText">Recent scores</h2>
-          <button class="recentScoreBtn">Refresh</button>
+          <button class="refreshBtn">Refresh</button>
         </div>
         <article class="scoreBoard"></article>
       </section>
@@ -23,15 +23,13 @@
         <div class="scoreInputText">
           <h2>Add your score</h2>
         </div>
-        <div class="scoreInput">
+        <form class="scoreInput">
           <input type="text" placeholder="Your name" class="inputName" />
           <input type="text" placeholder="Score" class="inputScore" />
-          <div class="scoreInputBtnContainer">
-            <button class="scoreInputBtn">Submit</button>
-          </div>
-        </div>
+          <input class="scoreInputBtn" type="submit" />
+        </form>
       </section>
     </section>
-    <script src="index.js"></script>
+    <script src="index.js" type="module"></script>
   </body>
 </html>
